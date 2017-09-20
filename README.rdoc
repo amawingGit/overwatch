@@ -1,3 +1,7 @@
 == README
 
 Gets hero information from public overwatch api
+
+rails c 
+e.g to get hero_id 1 and save to database
+OverwatchClientApi.get_hero(1, true)

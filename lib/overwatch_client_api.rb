@@ -1,4 +1,5 @@
-class OverwatchClientApi
+class OverwatchClientApi  
+  #endpoints can go into a config or env variable
   HERO_ENDPOINT = 'https://overwatch-api.net/api/v1/hero'
   ABILITY_ENDPOINT = 'https://overwatch-api.net/api/v1/ability'
 

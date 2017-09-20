@@ -1,3 +1,3 @@
 class Ability < ActiveRecord::Base
-  belong_to :hero
+  belongs_to :hero
 end

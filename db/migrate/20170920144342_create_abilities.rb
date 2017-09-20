@@ -5,6 +5,7 @@ class CreateAbilities < ActiveRecord::Migration
       t.text :description
       t.boolean :is_ultimate
       t.integer :hero_id
+      t.integer :ucid
 
       t.timestamps null: false
     end

@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170920130646) do
+ActiveRecord::Schema.define(version: 20170920144355) do
+
+  create_table "abilities", force: :cascade do |t|
+    t.string   "name"
+    t.text     "description"
+    t.boolean  "is_ultimate"
+    t.integer  "hero_id"
+    t.integer  "ucid"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
   create_table "heros", force: :cascade do |t|
     t.string   "name"
@@ -19,6 +29,7 @@ ActiveRecord::Schema.define(version: 20170920130646) do
     t.integer  "health"
     t.integer  "armour"
     t.integer  "shield"
+    t.integer  "ucid"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

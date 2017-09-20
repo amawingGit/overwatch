@@ -5,9 +5,11 @@ one:
   description: MyText
   is_ultimate: false
   hero_id: 1
+  ucid: 1
 
 two:
   name: MyString
   description: MyText
   is_ultimate: false
   hero_id: 1
+  ucid: 1

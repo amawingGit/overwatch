@@ -6,6 +6,7 @@ class CreateHeros < ActiveRecord::Migration
       t.integer :health
       t.integer :armour
       t.integer :shield
+      t.integer :ucid
 
       t.timestamps null: false
     end
